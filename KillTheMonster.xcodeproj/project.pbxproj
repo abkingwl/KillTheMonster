@@ -212,6 +212,17 @@
 		81847D8718E27E170083A7C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81847D8618E27E170083A7C0 /* AppDelegate.m */; };
 		81847D8A18E27E170083A7C0 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81847D8918E27E170083A7C0 /* HelloWorldScene.m */; };
 		81847D8D18E27E170083A7C0 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81847D8C18E27E170083A7C0 /* IntroScene.m */; };
+		81847DA318E27F190083A7C0 /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9A18E27F190083A7C0 /* monster-hd.png */; };
+		81847DA418E27F190083A7C0 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9B18E27F190083A7C0 /* monster.png */; };
+		81847DA518E27F190083A7C0 /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9C18E27F190083A7C0 /* player-hd.png */; };
+		81847DA618E27F190083A7C0 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9D18E27F190083A7C0 /* player.png */; };
+		81847DA718E27F190083A7C0 /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9E18E27F190083A7C0 /* projectile-hd.png */; };
+		81847DA818E27F190083A7C0 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847D9F18E27F190083A7C0 /* projectile.png */; };
+		81847DA918E27F190083A7C0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 81847DA118E27F190083A7C0 /* background-music-aac.caf */; };
+		81847DAA18E27F190083A7C0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 81847DA218E27F190083A7C0 /* pew-pew-lei.caf */; };
+		81847DAC18E27F440083A7C0 /* backgroundiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847DAB18E27F440083A7C0 /* backgroundiPhone.png */; };
+		81847DAE18E27F480083A7C0 /* backgroundiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847DAD18E27F480083A7C0 /* backgroundiPhone-hd.png */; };
+		81847DB018E2D1A30083A7C0 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81847DAF18E2D1A30083A7C0 /* test2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -653,6 +664,19 @@
 		81847D8918E27E170083A7C0 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		81847D8B18E27E170083A7C0 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		81847D8C18E27E170083A7C0 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		81847D9618E27E4F0083A7C0 /* ICONBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICONBIG.png; sourceTree = "<group>"; };
+		81847D9718E27E640083A7C0 /* screen-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-hd.png"; sourceTree = "<group>"; };
+		81847D9A18E27F190083A7C0 /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-hd.png"; sourceTree = "<group>"; };
+		81847D9B18E27F190083A7C0 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		81847D9C18E27F190083A7C0 /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-hd.png"; sourceTree = "<group>"; };
+		81847D9D18E27F190083A7C0 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		81847D9E18E27F190083A7C0 /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile-hd.png"; sourceTree = "<group>"; };
+		81847D9F18E27F190083A7C0 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		81847DA118E27F190083A7C0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		81847DA218E27F190083A7C0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		81847DAB18E27F440083A7C0 /* backgroundiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundiPhone.png; sourceTree = "<group>"; };
+		81847DAD18E27F480083A7C0 /* backgroundiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundiPhone-hd.png"; sourceTree = "<group>"; };
+		81847DAF18E2D1A30083A7C0 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -679,6 +703,9 @@
 		81847AD118E27E140083A7C0 = {
 			isa = PBXGroup;
 			children = (
+				81847D9818E27F190083A7C0 /* ResourcePack */,
+				81847D9718E27E640083A7C0 /* screen-hd.png */,
+				81847D9618E27E4F0083A7C0 /* ICONBIG.png */,
 				81847AF518E27E140083A7C0 /* KillTheMonster */,
 				81847ADC18E27E140083A7C0 /* Frameworks */,
 				81847ADB18E27E140083A7C0 /* Products */,
@@ -1550,6 +1577,40 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		81847D9818E27F190083A7C0 /* ResourcePack */ = {
+			isa = PBXGroup;
+			children = (
+				81847D9918E27F190083A7C0 /* Art */,
+				81847DA018E27F190083A7C0 /* Sounds */,
+			);
+			path = ResourcePack;
+			sourceTree = "<group>";
+		};
+		81847D9918E27F190083A7C0 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				81847D9A18E27F190083A7C0 /* monster-hd.png */,
+				81847DAF18E2D1A30083A7C0 /* test2.png */,
+				81847D9B18E27F190083A7C0 /* monster.png */,
+				81847D9C18E27F190083A7C0 /* player-hd.png */,
+				81847DAB18E27F440083A7C0 /* backgroundiPhone.png */,
+				81847DAD18E27F480083A7C0 /* backgroundiPhone-hd.png */,
+				81847D9D18E27F190083A7C0 /* player.png */,
+				81847D9E18E27F190083A7C0 /* projectile-hd.png */,
+				81847D9F18E27F190083A7C0 /* projectile.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		81847DA018E27F190083A7C0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				81847DA118E27F190083A7C0 /* background-music-aac.caf */,
+				81847DA218E27F190083A7C0 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1594,6 +1655,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = abking;
+				TargetAttributes = {
+					81847AD918E27E140083A7C0 = {
+						DevelopmentTeam = CU3D2N26Q4;
+					};
+				};
 			};
 			buildConfigurationList = 81847AD518E27E140083A7C0 /* Build configuration list for PBXProject "KillTheMonster" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1619,29 +1685,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				81847AFA18E27E140083A7C0 /* Default@2x.png in Resources */,
+				81847DA718E27F190083A7C0 /* projectile-hd.png in Resources */,
+				81847DA518E27F190083A7C0 /* player-hd.png in Resources */,
 				81847B0D18E27E140083A7C0 /* Icon-120.png in Resources */,
 				81847D1118E27E160083A7C0 /* LICENSE_CCBReader.txt in Resources */,
 				81847B0318E27E140083A7C0 /* Icon@2x.png in Resources */,
+				81847DA918E27F190083A7C0 /* background-music-aac.caf in Resources */,
 				81847B1518E27E140083A7C0 /* Icon-Small@2x.png in Resources */,
 				81847B0718E27E140083A7C0 /* Icon-72@2x.png in Resources */,
 				81847AF818E27E140083A7C0 /* Default.png in Resources */,
 				81847B0118E27E140083A7C0 /* Icon.png in Resources */,
 				81847B0F18E27E140083A7C0 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				81847DAC18E27F440083A7C0 /* backgroundiPhone.png in Resources */,
 				81847AFE18E27E140083A7C0 /* Default-Landscape~ipad.png in Resources */,
+				81847DAE18E27F480083A7C0 /* backgroundiPhone-hd.png in Resources */,
 				81847B1318E27E140083A7C0 /* Icon-Small.png in Resources */,
+				81847DB018E2D1A30083A7C0 /* test2.png in Resources */,
 				81847B1118E27E140083A7C0 /* Icon-Small-50.png in Resources */,
+				81847DA418E27F190083A7C0 /* monster.png in Resources */,
+				81847DA618E27F190083A7C0 /* player.png in Resources */,
 				81847CFA18E27E160083A7C0 /* LICENSE_Kazmath.txt in Resources */,
 				81847B0518E27E140083A7C0 /* Icon-72.png in Resources */,
+				81847DAA18E27F190083A7C0 /* pew-pew-lei.caf in Resources */,
 				81847C5318E27E150083A7C0 /* LICENSE_cocos2d.txt in Resources */,
 				81847AFC18E27E140083A7C0 /* Default-568h@2x.png in Resources */,
 				81847B1C18E27E140083A7C0 /* iTunesArtwork in Resources */,
 				81847B1718E27E140083A7C0 /* Icon-Spotlight-iOS7.png in Resources */,
+				81847DA818E27F190083A7C0 /* projectile.png in Resources */,
 				81847B0B18E27E140083A7C0 /* Icon-76@2x.png in Resources */,
 				81847D7F18E27E170083A7C0 /* LICENSE_Chipmunk.txt in Resources */,
 				81847B1918E27E140083A7C0 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				81847B0918E27E140083A7C0 /* Icon-76.png in Resources */,
 				81847CDF18E27E160083A7C0 /* ChangeLog in Resources */,
 				81847B1E18E27E140083A7C0 /* iTunesArtwork@2x in Resources */,
+				81847DA318E27F190083A7C0 /* monster-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1925,6 +2002,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1935,12 +2014,14 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = KillTheMonster/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1950,6 +2031,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KillTheMonster/Supporting Files/Prefix.pch";
@@ -1959,12 +2042,14 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = KillTheMonster/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1989,6 +2074,7 @@
 				81847D9218E27E170083A7C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81847D9318E27E170083A7C0 /* Build configuration list for PBXNativeTarget "KillTheMonster" */ = {
 			isa = XCConfigurationList;
@@ -1997,6 +2083,7 @@
 				81847D9518E27E170083A7C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

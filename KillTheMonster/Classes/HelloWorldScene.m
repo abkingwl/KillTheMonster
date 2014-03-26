@@ -21,7 +21,6 @@
     float _timeToAddMonster,_timer;
     int _killed,_passed,_kill;
     CCLabelTTF *_killedLabel,*_passedLabel;
-    BOOL _isToUseBigProjectile;
 }
 
 // -----------------------------------------------------------------------
@@ -108,8 +107,8 @@
     //[_player runAction:[CCActionScaleTo actionWithDuration:0.5f scale:1.0f]];
     CGPoint touchLocation=[touch locationInNode:self];
     NSString *projectileName=(_timer>20)?@"test2.png":@"projectile.png";
-    _isToUseBigProjectile=(_timer>20)?YES:NO;
     CCSprite *projectile=[CCSprite spriteWithImageNamed:projectileName];
+    projectile.name=(_timer>20)?@"YES":@"NO";
     projectile.position=_player.position;
     CGPoint offset=ccpSub(touchLocation, _player.position);
     float ratio=offset.y/offset.x;
@@ -125,9 +124,9 @@
     [projectile runAction:[CCActionRepeatForever actionWithAction:projectileRotate]];
     CCActionMoveTo *projectileMoveTo=[CCActionMoveTo actionWithDuration:dt position:targetLocation];
     CCActionRemove *projectileMoveToRemove=[CCActionRemove action];
-    CCActionCallBlock *projectileActionCallBack=[CCActionCallBlock actionWithBlock:^{
-        [projectile removeFromParentAndCleanup:YES];
-    }];
+//    CCActionCallBlock *projectileActionCallBack=[CCActionCallBlock actionWithBlock:^{
+//        [projectile removeFromParentAndCleanup:YES];
+//    }];
     //CCActionSequence *projectileActionSequence=[CCActionSequence actionWithArray:@[projectileMoveTo,projectileActionCallBack]];
     CCActionSequence *projectileActionSequence=[CCActionSequence actionWithArray:@[projectileMoveTo,projectileMoveToRemove]];
     [projectile runAction:projectileActionSequence];
@@ -142,7 +141,7 @@
         [self schedule:@selector(addMonster) interval:_timeToAddMonster];
     }
     [monster removeFromParent];
-    if (!_isToUseBigProjectile) {
+    if ([projectile.name isEqualToString:@"YES"]) {
         [projectile removeFromParent];
     }
     return YES;

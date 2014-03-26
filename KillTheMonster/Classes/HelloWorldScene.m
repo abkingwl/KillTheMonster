@@ -141,7 +141,7 @@
         [self schedule:@selector(addMonster) interval:_timeToAddMonster];
     }
     [monster removeFromParent];
-    if ([projectile.name isEqualToString:@"YES"]) {
+    if ([projectile.name isEqualToString:@"NO"]) {
         [projectile removeFromParent];
     }
     return YES;
